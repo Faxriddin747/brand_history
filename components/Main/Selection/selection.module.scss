@@ -1,0 +1,20 @@
+.selections {
+
+    img {
+        width: 100%;
+    }
+
+    .selectionsTitle {
+        display: flex;
+        justify-content: baseline;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .selectionsForYou {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 20px 0;
+        gap: 20px;
+    }
+}

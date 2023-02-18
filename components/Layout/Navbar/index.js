@@ -7,7 +7,9 @@ export default function Navbar() {
     <div className="container">
       <div className={cls.navbar}>
         <div className={cls.brandstore}>
-          <h1>BRAND STORE</h1>
+          <a href="/">
+            <h1>BRAND STORE</h1>
+          </a>
         </div>
         <div>
           <button>

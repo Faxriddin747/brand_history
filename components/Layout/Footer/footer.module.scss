@@ -1,0 +1,36 @@
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: black;
+    color: white;
+
+    p,
+    svg {
+        margin: 20px 0;
+    }
+
+    .information {
+        padding-left: 25px;
+        .footerSvg {
+            display: flex;
+            justify-content: baseline;
+            gap: 10px;
+        }
+        .footerIcon{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            img{
+                width: 100px;
+            }
+        }
+
+    }
+
+    .information,
+    .categoriyesFooter,
+    .magazinFooter,
+    .buyersFooter {
+        margin: 20px 0;
+    }
+}

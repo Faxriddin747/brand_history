@@ -1,0 +1,1 @@
+export const url = 'https://api.bs365.uz'

@@ -1,0 +1,46 @@
+.blogs {
+    .blogBrand {
+        display: flex;
+        grid-area: top;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px 0;
+
+        .blogname {
+            display: flex;
+            justify-content: baseline;
+            align-items: center;
+            gap: 20px;
+        }
+
+        button {
+            width: 170px;
+            height: 40px;
+            background-color: white;
+            border: 1px solid black;
+        }
+
+    }
+
+    .blogProduct {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        width: 250px;
+        gap: 20px;
+
+        img {
+            width: 250px;
+        }
+
+        .productsType {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            span {
+                color: red;
+            }
+
+        }
+    }
+}

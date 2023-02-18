@@ -1,0 +1,76 @@
+.recommends {
+
+    .priceRecom {
+        display: flex;
+        grid-area: top;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px 0;
+
+        .percentname {
+            display: flex;
+            justify-content: baseline;
+            align-items: center;
+            gap: 20px;
+        }
+
+        button {
+            width: 170px;
+            height: 40px;
+            background-color: white;
+            border: 1px solid black;
+        }
+    }
+
+    .cheapproduct {
+        display: grid;
+        grid-template-columns: 1fr 350px;
+        gap: 5px;
+
+        .tableproducts {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 5px;
+
+            .products {
+                padding: 10px;
+                align-items: center;
+                position: relative;
+                border: 1px solid rgb(243, 243, 243);
+
+                .heartdiagramm {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: end;
+                    position: absolute;
+                    right: 10px;
+                    top: 30px;
+                }
+
+                img {
+                    width: 100%;
+                }
+
+                .productnames {
+                    margin: 10px 0;
+                }
+
+                .productprices {
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 10px;
+                }
+            }
+        }
+
+        .reklama {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+
+            img {
+                width: 350px;
+            }
+        }
+    }
+}

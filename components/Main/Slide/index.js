@@ -6,13 +6,16 @@ import { Navigation } from "swiper";
 import "swiper/css/navigation";
 
 
-export default function Slide() {
+export default function Slide({bannerData}) {
+  console.log(bannerData,'banenr')
   return (
     <div className={cls.slides}>
-      <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
-        <SwiperSlide><img src="https://dl.bs365.uz/storage/sliders/138/WXmEO8ZQ8vfMLlbSjoWT.jpg"/></SwiperSlide>
-        <SwiperSlide><img src="https://dl.bs365.uz/storage/sliders/138/WXmEO8ZQ8vfMLlbSjoWT.jpg"/></SwiperSlide>
-        <SwiperSlide><img src="https://dl.bs365.uz/storage/sliders/138/WXmEO8ZQ8vfMLlbSjoWT.jpg"/></SwiperSlide>
+      <Swiper navigation={true} modules={[Navigation]} loop={true} className="mySwiper">
+        {bannerData.length && bannerData.map((item)=>(
+
+        <SwiperSlide key={item.id}><img src={item.background.url}/></SwiperSlide>
+        ))}
+
       </Swiper>
     </div>
       );

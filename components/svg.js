@@ -293,3 +293,142 @@ export const Percent = () => (
     </g>
   </svg>
 );
+
+export const HeartForYou = () => (
+  <svg
+    width="36px"
+    height="36px"
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M17.726 13.02 14 16H9v-1h4.065a.5.5 0 0 0 .416-.777l-.888-1.332A1.995 1.995 0 0 0 10.93 12H3a1 1 0 0 0-1 1v6a2 2 0 0 0 2 2h9.639a3 3 0 0 0 2.258-1.024L22 13l-1.452-.484a2.998 2.998 0 0 0-2.822.504zm1.532-5.63c.451-.465.73-1.108.73-1.818s-.279-1.353-.73-1.818A2.447 2.447 0 0 0 17.494 3S16.25 2.997 15 4.286C13.75 2.997 12.506 3 12.506 3a2.45 2.45 0 0 0-1.764.753c-.451.466-.73 1.108-.73 1.818s.279 1.354.73 1.818L15 12l4.258-4.61z" />
+  </svg>
+);
+
+export const YourBrand = () => (
+  <svg
+    width="36px"
+    height="36px"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M3.41982 10.5H7.74973L11.2714 18.952C11.1342 18.8758 11.0064 18.7763 10.894 18.6537L3.41982 10.5Z"
+      fill="#3A52EE"
+    />
+    <path
+      d="M3.39844 9.00001L6.69868 5.03972C6.98367 4.69773 7.40584 4.5 7.85101 4.5H9.20917L7.70916 9.00001H3.39844Z"
+      fill="#3A52EE"
+    />
+    <path
+      d="M10.7903 4.5L9.2903 9.00001H14.7092L13.2092 4.5H10.7903Z"
+      fill="#3A52EE"
+    />
+    <path
+      d="M14.7903 4.5L16.2903 9.00001H20.601L17.3008 5.03972C17.0158 4.69773 16.5936 4.5 16.1485 4.5H14.7903Z"
+      fill="#3A52EE"
+    />
+    <path
+      d="M20.5796 10.5H16.2497L12.7281 18.952C12.8653 18.8758 12.993 18.7763 13.1055 18.6537L20.5796 10.5Z"
+      fill="#3A52EE"
+    />
+    <path d="M11.9997 16.8L9.37473 10.5H14.6247L11.9997 16.8Z" fill="#3A52EE" />
+  </svg>
+);
+
+export const Telegram = () => (
+  <svg
+    width="24px"
+    height="24px"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M18 8L5 12.5L9.5 14M18 8L9.5 14M18 8L14 18.5L9.5 14"
+      stroke="currentColor"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+      stroke="currentColor"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </svg>
+);
+
+export const Facebook = () => (
+  <svg
+    width="24px"
+    height="24px"
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    class="feather feather-facebook"
+  >
+    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+  </svg>
+);
+
+export const Twitter = () => (
+  <svg
+    width="24px"
+    height="24px"
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    class="feather feather-twitter"
+  >
+    <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+  </svg>
+);
+
+export const Instagram = () => (
+  <svg
+    width="24px"
+    height="24px"
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    class="feather feather-instagram"
+  >
+    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+  </svg>
+);
+
+export const Message = () => (
+  <svg
+    width="24px"
+    height="24px"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M8.25 12.75L14.25 12.75M8.25 9.75L11.25 9.75M5.25 5.25H18.75C19.5784 5.25 20.25 5.92157 20.25 6.75V15.75C20.25 16.5784 19.5784 17.25 18.75 17.25H15L12 20.25L9 17.25H5.25C4.42157 17.25 3.75 16.5784 3.75 15.75V6.75C3.75 5.92157 4.42157 5.25 5.25 5.25Z"
+      stroke="#3A52EE"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </svg>
+);
